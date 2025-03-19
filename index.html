@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>正規表現問題集</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>正規表現問題集</h1>
+    </header>
+
+    <main>
+        <section class="question">
+            <h2>基本レベル</h2>
+            <p>以下の単語のいずれかを検索できる正規表現を入力してください。</p>
+            <pre>
+apple
+banana
+cherry
+            </pre>
+            <input type="text" id="regexInput" placeholder="正規表現を入力">
+            <button onclick="checkAnswer()">チェック</button>
+            <p id="result"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
